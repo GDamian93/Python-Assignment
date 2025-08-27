@@ -1,0 +1,21 @@
+***** Fruit list *****
+Apple
+Banana
+Orange
+Mango
+Pineapple
+Watermelon
+Grape
+Strawberry
+Blueberry
+Raspberry
+Cherry
+Lemon
+Lime
+Papaya
+Pear
+Peach
+Plum
+Kiwi
+Avocado
+Pomegranate
