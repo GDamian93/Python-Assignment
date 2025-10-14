@@ -1,19 +1,27 @@
-# _________________________ WEEK 3 ASSIGNMENT   _________________________
+# _________________________ WEEK 3 - ASSIGNMENT   _________________________
 
 # Calculate the discounted price
-def calculate_discount(price, discount_percent):
+def calculate_discounted_price(price, discount_percent):
     discount = (discount_percent / 100) * price
     return price - discount
 
-# Get user input for price and discount percentage.
-price = float(input("Enter with the price: "))
-discount_percent = float(input("Enter with the discount percentage: "))
+print("================================================================")
+print("=                   DISCOUNT CALCULATOR                        =")
+print("================================================================")
 
-# Check if the discount percentage is 20% or more
-# If so, apply the discount and print the discounted price, otherwise print the original price.
 
+# Get user input
+original_price = float(input("= Enter the original price: "))
+discount_percent = float(input("= Enter the discount percentage: "))
+print("================================================================")
+
+# Apply discount if eligible
 if discount_percent >= 20:
-    discounted_price = calculate_discount(price, discount_percent)
-    print("Price with discount: ", discounted_price)
+    final_price = calculate_discounted_price(original_price, discount_percent)
+    print(f"= Discount applied: {discount_percent}%")
+    print(f"= Original price: ${original_price: .2f}")
+    print(f"= Final price after discount: ${final_price: .2f}")
 else:
-    print("Price with discount: ", price)
+    print(f"= No discount applied (only {discount_percent}%).")
+    print(f"= Final price: ${original_price: .2f}")
+print("================================================================")
