@@ -1,14 +1,12 @@
 # _________________________ WEEK 3 - ASSIGNMENT   _________________________
+print("================================================================")
+print("=                   DISCOUNT CALCULATOR                        =")
+print("================================================================")
 
 # Calculate the discounted price
 def calculate_discounted_price(price, discount_percent):
     discount = (discount_percent / 100) * price
     return price - discount
-
-print("================================================================")
-print("=                   DISCOUNT CALCULATOR                        =")
-print("================================================================")
-
 
 # Get user input
 original_price = float(input("= Enter the original price: "))
