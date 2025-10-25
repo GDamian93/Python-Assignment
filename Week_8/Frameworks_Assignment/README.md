@@ -98,7 +98,7 @@ Frameworks_Assignment/
 │
 ├── CORD19DataExplorer.py   # Main project script
 ├── appStreamlit.py         # Streamlit visualization app
-├── metadata.csv            # Original dataset (not included in GitHub)
+├── metadata.csv            # simple file of the dataset 
 ├── metadata_prepared.csv   # Cleaned dataset version
 └── README.md               # Project documentation and reflection
 ```
