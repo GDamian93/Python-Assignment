@@ -20,6 +20,7 @@ With this project, it was possible to:
 ---
 
 ## 🧰 Tools and Libraries Used
+```
  _____________________________________________________________________
 | Library        |                 Main Purpose                       |
 |________________|____________________________________________________|
@@ -28,6 +29,7 @@ With this project, it was possible to:
 | **streamlit**  | Creating an interactive web app to display results |
 |_____________________________________________________________________| 
 
+```
 ## ⚙️ Project Steps
 
 ### 1. Data Loading and Exploration
